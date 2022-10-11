@@ -2487,13 +2487,13 @@ INT64 Shell_TrayWndSubclassProc(
                 }
                 DeleteMenu(hSubMenu, 424, MF_BYCOMMAND); // Lock the taskbar
                 DeleteMenu(hSubMenu, 425, MF_BYCOMMAND); // Lock all taskbars
-                DeleteMenu(hSubMenu, 416, MF_BYCOMMAND); // Undo
-                DeleteMenu(hSubMenu, 437, MF_BYCOMMAND); // Show Pen button
-                DeleteMenu(hSubMenu, 438, MF_BYCOMMAND); // Show touchpad button
-                DeleteMenu(hSubMenu, 435, MF_BYCOMMAND); // Show People on the taskbar
+                DeleteMenu(hSubMenu, 416, MF_BYCOMMAND); // Geri
+                DeleteMenu(hSubMenu, 437, MF_BYCOMMAND); // Dokunmatik kalemi göster
+                DeleteMenu(hSubMenu, 438, MF_BYCOMMAND); // Touchpad düğmesini göster
+                DeleteMenu(hSubMenu, 435, MF_BYCOMMAND); // İnsanları taskbarda göster
                 DeleteMenu(hSubMenu, 430, MF_BYCOMMAND); // Show Task View button
-                DeleteMenu(hSubMenu, 449, MF_BYCOMMAND); // Show Cortana button
-                DeleteMenu(hSubMenu, 621, MF_BYCOMMAND); // News and interests
+                DeleteMenu(hSubMenu, 449, MF_BYCOMMAND); // Cortana düğmesini göster
+                DeleteMenu(hSubMenu, 621, MF_BYCOMMAND); // Haberler ve ilgi alanları
                 DeleteMenu(hSubMenu, 445, MF_BYCOMMAND); // Cortana
                 DeleteMenu(hSubMenu, 431, MF_BYCOMMAND); // Search
                 DeleteMenu(hSubMenu, 421, MF_BYCOMMAND); // Customize notification icons
